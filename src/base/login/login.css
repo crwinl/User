@@ -1,0 +1,145 @@
+#user_pannel {height: 80px; width: 260px;}
+.user-rest { height: 37px; padding: 22px 0 21px; }
+.user-rest li { height: 37px; padding: 0 12px 0 18px; float: right; }
+.user-rest li a { display: block; width: 37px; height: 37px; background: url(../img/tips.png) no-repeat; text-indent: -99em; overflow: hidden; _background-image: url(../img/tips.gif) }
+.user-rest li .login { background-position: -51px -249px; }
+.user-rest li .login:hover { background-position: -151px -249px; }
+.user-rest li .register { background-position: -1px -249px; }
+.user-rest li .register:hover { background-position: -101px -249px; }
+.user-login {width: 166px; height: 100%;}
+.login_name {display: block; height: 36px; line-height: 36px; margin: 22px 0; position: relative; width: 166px; overflow: hidden; cursor: pointer;}
+.login_name img {display: block; width: 36px; height: 36px; border-radius: 18px; float: left; margin: 0 10px 0 13px;}
+.login_name span {display: inline-block; float: left; width: 6em; font-size: 14px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis; color: #ff4839;}
+.login_name b {display: block; width: 10px; height: 10px; background: url(login.png) no-repeat -37px -40px; position: absolute; top: 0px; left: 40px; _left: 52px;}
+.login_name_h {background: #2d2d2d; position: relative; top: 0; right: 0;}
+.login_name_h:before {content: ""; height: 2px; width: 100%; background: #2d2d2d; position: absolute; left: 0; top: -2px;}
+.user_link {position: relative; top: 0; right: 0; width: 166px; height: auto;  display: none; _position: absolute; _top: 80px;}
+.user_link li {height: 40px; width: 166px; line-height: 40px; font-size: 14px;}
+.user_link li a {display: block; width: 140px; padding-left: 26px; height: 40px; color: #fff; background: #2d2d2d;}
+.user_link li a:hover {background: #333; color: #fff;}
+.user_link li i {display: inline-block; _display:none; vertical-align: middle; background: url(login.png) no-repeat;}
+.user_link .ul_msg i {width: 14px; height: 11px; margin: -1px 9px 0 0; background-position: -133px 0;}
+.user_link .ul_egg i {width: 12px; height: 14px; margin: -3px 10px 0 2px; background-position: -14px 0;}
+.user_link .ul_mas i {width: 16px; height: 15px; margin: -1px 8px 0 0; background-position: -26px 0;}
+.user_link .ul_mtip i {width: 10px; height: 14px; margin: -1px 11px 0 3px; background-position: -42px 0;}
+.user_link .ul_mcol i {width: 14px; height: 14px; margin: -4px 9px 0 1px; background-position: -52px 0;}
+.user_link .ul_mfou i {width: 13px; height: 13px; margin: -1px 10px 0 1px; background-position: -66px 0;}
+.user_link .ul_mpac i {width: 13px; height: 12px; margin: -1px 10px 0 1px; background-position: -79px 0;}
+.user_link .ul_seti i {width: 14px; height: 14px; margin: -3px 10px 0 0; background-position: -92px 0;}
+.user_link .ul_reid i {width: 13px; height: 13px; margin: -2px 10px 0 1px; background-position: -120px 0;}
+.user_link .ul_esc i {width: 14px; height: 12px; margin: -2px 9px 0 0; background-position: -106px 0;}
+.user_link .on .ul_msg {background: #ff4839;}
+.user_link .on .ul_msg i {background-position: 0 0;}
+.user_link .on .ul_msg:hover {background: #ff4839;}
+
+.strategy_nav #user_pannel {height: 45px;}
+.strategy_nav .user-rest {padding: 9px 0;}
+.strategy_nav .user-rest li a {width: 28px; height: 27px; background: url(../img/tips.png) no-repeat;}
+.strategy_nav .user-rest li { height: 27px; padding: 0 15px; float: right; }
+.strategy_nav .user-rest li .login { background-position: -51px -290px; }
+.strategy_nav .user-rest li .login:hover { background-position: -151px -290px; }
+.strategy_nav .user-rest li .register { background-position: -1px -290px; }
+.strategy_nav .user-rest li .register:hover { background-position: -101px -290px; }
+.strategy_nav .login_name { margin: 5px 0 4px; }
+
+
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounceInDown {
+  0%, 60%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -10px, 0);
+            transform: translate3d(0, -10px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes bounceInDown {
+  0%, 60%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 1.000);
+            transition-timing-function: cubic-bezier(0.215, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -10px, 0);
+            transform: translate3d(0, -10px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+          animation-name: bounceInDown;
+}
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-2px, 0, 0);
+            transform: translate3d(-2px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-2px, 0, 0);
+            transform: translate3d(-2px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+          animation-name: shake;
+}

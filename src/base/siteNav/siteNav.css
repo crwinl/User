@@ -1,0 +1,52 @@
+.siteNav {height: 35px; background: #313131; border-bottom: 1px solid #272727;}
+.pageNav {border-top: 1px solid #3b3b3b;}
+.layout {width: 1200px; margin: 0 auto; height: 35px;}
+.layout ul.fl {padding-left: 14px; height: 35px; line-height: 35px;}
+.layout ul.fl li {float: left; padding: 0 12px;}
+.layout ul.fl li a {color: #626262;}
+.layout ul.fl li a:hover {color: #959595;}
+.layout ul.fr {height: 35px; line-height: 35px;}
+.layout ul.fr a {display: block; float: right; height: 35px; line-height: 35px; color: #626262; text-align: center;}
+.layout i {display: inline-block; _display:inline; vertical-align: middle; background: url(siteNav.gif)no-repeat;}
+.layout .snNav {width: 98px; margin-right: 5px;}
+.layout .snNav i {width: 12px; height: 10px; background-position: 0 -79px; margin-right: 4px;}
+.layout .snPhone {width: 75px;}
+.layout .snPhone:hover {color: #959595;}
+.layout .snPhone i {width: 10px; height: 12px; background-position: 0 -89px; margin: -2px 5px 0 0;}
+.layout .snPhone:hover i {background-position: 0 -67px;}
+.siteList {position: absolute; z-index: 101; height: 188px; width: 1200px; left: 50%; margin-left: -600px; padding: 29px 0 37px ; background: #2d2d2d; zoom: 1; display: none;}
+.siteList .snNav {display: block; width: 96px; height: 36px; line-height: 36px; color: #626262; text-align: center; background: #2d2d2d; border: solid #272727; border-width: 0 1px; position: absolute; right: 80px; top: -35px; _position: relative; _right: -1023px; _top: -64px;}
+.siteList .snNav i {display: inline-block; _display:inline; vertical-align: middle; width: 12px; height: 10px; background: url(siteNav.gif) no-repeat 0 -79px; margin-right: 4px;}
+.siteList .snNav:hover {color: #959595;}
+.siteList .snNav:hover i {background-position: 0 -57px;}
+.snwrap {width: 1140px; height: 188px; overflow: hidden; margin: 0 auto;}
+.snlayout {width: 1200px; height: 188px; margin-left: -30px;}
+.snLink_box {width: 299px; height: 188px;  border-right: 1px solid #393939; float: left; overflow: hidden;}
+.snLink_box .snl {height: 60px; padding-left: 36px; position: relative;}
+.snLink_box .snl span {display: block; width: 56px; height: 56px; float: left; padding: 2px 20px 2px 0;}
+.snLink_box .snl span a {display: block; width: 56px; height: 56px; overflow: hidden; text-indent: -9em; background: url(siteNav.gif) no-repeat;}
+.snLink_box .snl ul {width: 187px; position: absolute; right: 0; line-height: 30px;}
+.snLink_box .snl li {float: left; height: 30px; margin-right: 25px;}
+.snLink_box .snl li a {font-size: 16px; color: #565656;}
+.snLink_box .snl li a:hover {color: #959595;}
+.snLink_box .snlTop {border-bottom: 1px solid #393939; height: 86px;}
+.snLink_box .snlTop ul {top: 0;}
+.snLink_box .snlBtn {height: 100px;}
+.snLink_box .snlBtn ul {bottom: 8px;}
+.snLink_box .snlBtn span {padding: 34px 20px 0 0;}
+.snLink_box .snl span .n1 {background-position: 0 -101px;}
+.snLink_box .snl span .n1:hover {background-position: 0 -157px;}
+.snLink_box .snl span .n2 {background-position: 0 -213px;}
+.snLink_box .snl span .n2:hover {background-position: 0 -269px;}
+.snLink_box .snl span .n3 {background-position: 0 -325px;}
+.snLink_box .snl span .n3:hover {background-position: 0 -381px;}
+.snLink_box .snl span .n4 {background-position: 0 -437px;}
+.snLink_box .snl span .n4:hover {background-position: 0 -493px;}
+.snLink_box .snl span .n5 {background-position: 0 -549px;}
+.snLink_box .snl span .n5:hover {background-position: 0 -605px;}
+.snLink_box .snl span .n6 {background-position: 0 -661px;}
+.snLink_box .snl span .n6:hover {background-position: 0 -717px;}
+.snLink_box .snl span .n7 {background-position: 0 -773px;}
+.snLink_box .snl span .n7:hover {background-position: 0 -829px;}
+.snLink_box .snl span .n8 {background-position: 0 -885px;}
+.snLink_box .snl span .n8:hover {background-position: 0 -942px;}

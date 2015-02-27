@@ -1,0 +1,69 @@
+.pageMain {width: 1200px; margin: 0 auto;}
+.Navigation {height: 43px; line-height: 43px;}
+.uk-breadcrumb {
+  /* 1 */
+  padding: 0;
+  list-style: none;
+  /* 2 */
+  font-size: 0.001px;
+}
+.uk-breadcrumb > li,
+.uk-breadcrumb > span {
+  font-size: 14px;
+  vertical-align: top;
+  color: #a5a5a5;
+}
+.uk-breadcrumb > li,
+.uk-breadcrumb > li > a,
+.uk-breadcrumb > li > span {
+  display: inline-block;
+  color: #a5a5a5;
+}
+.uk-breadcrumb > li:nth-child(n+2):before {
+  content: ">";
+  display: inline-block;
+}
+.uk-breadcrumb > span > i {
+	font-size: 20px;
+	margin-right: 5px;
+	color: #c5c5c3;
+	line-height: 42px;
+}
+/*
+ * Disabled
+ */
+.uk-breadcrumb > li:not(.uk-active) > span {
+  color: #999999;
+}
+/* 两列定宽布局 */
+.wrap{background: #fff;}
+.g-sd{float:right;}
+.g-mn{float:left;padding-left: 30px; width: 873px; border-right: 1px solid #f0f0f0;}
+
+.user_card {height: 120px; padding: 26px 0 50px;}
+.user-img {width: 120px; height: 120px; border-radius: 60px; overflow: hidden; margin-right: 10px; float: left;}
+.user-img img {display: block; width: 100%; height: 100%;}
+.user-date {width: 743px; height: 120px; overflow: hidden; float: left;}
+
+.user-id {height: 30px;  padding: 14px 0 25px 30px;}
+.user-id p {font-size: 24px; font-weight: bold; height: 30px; line-height: 30px; float: left;}
+
+.user-id-button {display: inline-block; float: left; margin: 3px 0 2px 20px; height: 25px; padding: 0 7px; border-radius: 3px; line-height: 25px; font-size: 12px;}
+.user-id-button i {font-size: 23px; vertical-align: middle; position: relative; left: 0; top: -2px;}
+
+.user-get-mail {background: #ff4839; color: #fff;}
+.user-get-mail:hover {background: #f3493b; color: #fff;}
+
+.user-get-date {height: 23px; border: 1px solid #b1b1b1; background: #fff; color: #b1b1b1;}
+.user-get-date:hover {background: #eee; color: #b1b1b1;}
+
+.user-list {height: 40px;}
+.user-list > li { position: relative; width: 102px; height: 40px; overflow: hidden; float: left; text-align: center; border-right: 1px solid #e8e7ed;}
+.user-list > li:nth-last-child(1) {border-right: 0;}
+.user-list .u_i {font-size: 16px; line-height: 1;}
+.user-list .u_i:before {content: ""; width: 2em; position: absolute; left: 34px; bottom: 0}
+.user-list .u_i_art:before {content: "文章";}
+.user-list .u_i_col:before {content: "收藏";}
+.user-list .u_i_foc:before {content: "关注";}
+.user-list .u_i_egg:before {content: "蛋蛋";}
+.user-list .u_i_zan:before {content: "钻石";}
